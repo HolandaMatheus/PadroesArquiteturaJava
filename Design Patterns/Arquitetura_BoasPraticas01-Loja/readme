@@ -1,0 +1,12 @@
+Padrão de projeto Strategy
+
+Tipo de problema:
+Para calcular o imposto de um orçamento podem existir vário tipos de tributações (Em projetos podem haver diversas váriaveis para que um código funcione).
+Dessa forma, criar uma calculadora com várias confições de validações de cada tipo de imposto ficaria inviável. 
+
+Solução:
+- Criando uma classe para cada tipo de imposto (e seus respectivos calculos) e com um mesmo método em todas elas (no caso do projeto LOJA, o método é o calcular) seria possível isolar suas particularidades.
+- Utilizando uma interface, basta apenas passar o orcamento e tipo de imposto que o método correto sera utilizado.
+
+##############################################################################################################################################################################################################
+ 
